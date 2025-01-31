@@ -5,109 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72db035c-627c-4309-847d-9ab7eb0c90e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/_code/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/_code/code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/_version.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/assertion/rewrite.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/assertion/rewrite.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/config/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/legacypath.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/legacypath.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/pathlib.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/pathlib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/python_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/python_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/recwarn.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/recwarn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/tmpdir.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/_pytest/tmpdir.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/pytest-8.3.3.dist-info/AUTHORS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/pytest-8.3.3.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/pytest-8.3.3.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/pytest-8.3.3.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/pytest-8.3.3.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/pytest-8.3.3.dist-info/REQUESTED" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/pytest-8.3.3.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/pytest-8.3.3.dist-info/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/pytest-8.3.3.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium-4.26.1.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium-4.26.1.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium-4.26.1.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium-4.26.1.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium-4.26.1.dist-info/REQUESTED" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium-4.26.1.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/common/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/common/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/common/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/chromium/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/chromium/webdriver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/accessibility.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/animation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/audits.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/autofill.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/background_service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/browser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/cache_storage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/cast.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/console.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/css.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/database.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/debugger.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/device_access.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/device_orientation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/dom.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/dom_debugger.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/dom_snapshot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/dom_storage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/emulation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/event_breakpoints.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/extensions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/fed_cm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/fetch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/file_system.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/headless_experimental.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/heap_profiler.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/indexed_db.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/input_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/inspector.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/io.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/layer_tree.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/log.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/media.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/memory.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/network.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/overlay.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/performance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/performance_timeline.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/preload.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/profiler.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/pwa.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/py.typed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/runtime.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/schema.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/security.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/service_worker.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/storage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/system_info.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/target.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/tethering.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/tracing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/util.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/web_audio.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/devtools/v128/web_authn.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/linux/selenium-manager" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/linux/selenium-manager" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/macos/selenium-manager" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/macos/selenium-manager" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/options.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/virtual_authenticator.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/virtual_authenticator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/windows/selenium-manager.exe" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/common/windows/selenium-manager.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/remote/client_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/remote/client_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/remote/command.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/remote/command.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/remote/errorhandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/remote/errorhandler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/remote/remote_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/remote/remote_connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/remote/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/remote/webdriver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/safari/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/safari/webdriver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/support/relative_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/support/relative_locator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/py.test.exe" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Scripts/py.test.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Scripts/pytest.exe" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Scripts/pytest.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Locators.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Urban_RoutesPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Urban_RoutesPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -168,7 +67,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests for main.test_full_taxi_request_process">
+  <component name="RunManager" selected="Python tests.Python tests for main.TestUrbanRoutes.test_set_route">
     <configuration name="Python tests for main.TestUrbanRoutes" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="qa-project-Urban-Routes-es" />
       <option name="ENV_FILES" value="" />
@@ -246,10 +145,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for main.test_full_taxi_request_process" />
         <item itemvalue="Python tests.Python tests for main.TestUrbanRoutes.test_set_route" />
-        <item itemvalue="Python tests.Python tests for main.TestUrbanRoutes.test_full_taxi_request_process" />
         <item itemvalue="Python tests.Python tests for main.TestUrbanRoutes" />
+        <item itemvalue="Python tests.Python tests for main.test_full_taxi_request_process" />
+        <item itemvalue="Python tests.Python tests for main.TestUrbanRoutes.test_full_taxi_request_process" />
         <item itemvalue="Python tests.Python tests for main.TestUrbanRoutes.test_route_valid_data" />
       </list>
     </recent_temporary>
