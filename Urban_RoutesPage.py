@@ -10,7 +10,6 @@ class UrbanRoutesPage:
 
     from_address = (By.ID, 'from')
     to_address = (By.ID, 'to')
-    #call_taxi_button = (By.CSS_SELECTOR,'button round')
     call_taxi_button = (By.XPATH, '//*[@id="root"]/div/div[3]/div[3]/div[1]/div[3]/div[1]/button')
     comfort = (By.XPATH, '//*[@id="root"]/div/div[3]/div[3]/div[2]/div[1]/div[5]/div[2]')
     phone_number_field = (By.CSS_SELECTOR, ".np-button")
@@ -35,8 +34,8 @@ class UrbanRoutesPage:
     message_for_driver = (By.ID, 'comment') #Mensaje
     reqs_body = (By.XPATH, '//*[@id="root"]/div/div[3]/div[3]/div[2]/div[2]/div[4]/div[2]')#Cuerpo del requerimiento
     reqs_button = (By.CLASS_NAME, 'reques head') #Botón
-    #blanket_and_scarves = (By.XPATH, '//*[@id="root"]/div/div[3]/div[3]/div[2]/div[2]/div[4]/div[2]/div[1]/div/div[2]/div/span') #pañuelos y mantas
-    blanket_and_scarves = (By.XPATH, '//*[@id="root"]slider round')  # pañuelos y mantas
+    blanket_and_scarves = (By.XPATH, '/html/body/div/div/div[3]/div[3]/div[2]/div[2]/div[4]/div[2]/div[1]/div/div[2]/div/span') #pañuelos y mantas
+    slider = (By.CLASS_NAME, "switch")
     ice_cream = (By.CLASS_NAME, 'counter-plus') #Solicitud de helado
     counter_value = (By.CLASS_NAME, 'counter-value') #contador
     quantity_2 = (By.XPATH,'//*[@id="root"]/div/div[3]/div[3]/div[2]/div[2]/div[4]/div[2]/div[3]/div/div[2]/div[1]/div/div[2]/div/div[3]')
@@ -189,6 +188,10 @@ class UrbanRoutesPage:
         self.driver.implicitly_wait(30)
         self.driver.find_element(*self.blanket_and_scarves).click()
 
+    def slider_verification(self):
+        slider = self.driver.find_element(*self.slider)
+        return slider[0].get_propiety('checked')
+
     #def get_slider_status(self):
      #   return self.driver.find_element(*self.blanket_and_scarves)
 
@@ -206,12 +209,7 @@ class UrbanRoutesPage:
         self.driver.implicitly_wait(20)
         self.driver.find_element(*self.taxi_search_button).click()
 
-    #def get_taxi(self):
-       # return self.driver.find_element(*self.taxi_search_button).get_property('value')
 
-   # def details_button(self):
-      #  self.driver.implicitly_wait(20)
-         #return self.driver.find_element(*self.wait_driver_details).click()
 
     def order_header(self):
         self.driver.implicitly_wait(30)

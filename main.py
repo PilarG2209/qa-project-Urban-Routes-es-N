@@ -68,7 +68,7 @@ class TestUrbanRoutes:
     def test_request_blanket_and_scarves(self):
         self.driver.implicitly_wait(10)
         self.routes_page.request_blanket_and_scarves()
-        assert self.routes_page.blanket_and_scarves == True
+        assert self.routes_page.slider_verification()
 
     # Pedir 2 helados
     def test_request_ice_cream(self):

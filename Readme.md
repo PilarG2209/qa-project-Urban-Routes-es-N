@@ -88,7 +88,7 @@ Si aún no lo has hecho, crea un directorio para almacenar todos tus proyectos.
 - Status
 - Branch
 - Git
-- 
+- push
 
 
 
