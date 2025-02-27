@@ -18,7 +18,6 @@ class UrbanRoutesPage:
     close_button = (By.CLASS_NAME, 'close-button')
     number = (By.XPATH, '//*[@id="phone"]')
     next_button = (By.XPATH, '//*[text()="Siguiente"]')
-    #click_code = (By.ID, 'code_input')
     phone_code = (By.ID, 'code') #codigo de comprobacion SMS
     confirm_button = (By.XPATH,'//*[@id="root"]/div/div[1]/div[2]/div[2]/form/div[2]/button[1]') #Botón confirmar
     phone_send_button = (By.XPATH, '//*[@id="root"]/div/div[1]/div[2]/div[1]/form/div[2]/button')
@@ -35,13 +34,12 @@ class UrbanRoutesPage:
     reqs_body = (By.XPATH, '//*[@id="root"]/div/div[3]/div[3]/div[2]/div[2]/div[4]/div[2]')#Cuerpo del requerimiento
     reqs_button = (By.CLASS_NAME, 'reques head') #Botón
     blanket_and_scarves = (By.XPATH, '/html/body/div/div/div[3]/div[3]/div[2]/div[2]/div[4]/div[2]/div[1]/div/div[2]/div/span') #pañuelos y mantas
-    slider = (By.CLASS_NAME, "switch")
+    slider = (By.CLASS_NAME, "switch-input")
     ice_cream = (By.CLASS_NAME, 'counter-plus') #Solicitud de helado
     counter_value = (By.CLASS_NAME, 'counter-value') #contador
     quantity_2 = (By.XPATH,'//*[@id="root"]/div/div[3]/div[3]/div[2]/div[2]/div[4]/div[2]/div[3]/div/div[2]/div[1]/div/div[2]/div/div[3]')
     order_number = (By.ID, "number>h_180")
     taxi_search_button = (By.CLASS_NAME, 'smart-button')
-    #order_header_title = (By.XPATH, '//*[@id="root"]/div/div[5]/div[2]/div[2]/div[1]/div[3]') #correcto pero verificar
     order_header_title = (By.CLASS_NAME,'order-btn-group')
     burger_button = (By.XPATH,'//*[@id="root"]/div/div[5]/div[2]/div[2]/div[1]/div[3]') #codigo correcto
     #burger_button = (By.XPATH,'//*[@id="root"]/div/div[5]/div[2]/div[2]/div[1]/div[3]/button') #correcto pero verificar
@@ -115,13 +113,6 @@ class UrbanRoutesPage:
         self.driver.implicitly_wait(20)
         self.driver.find_element(*self.next_button).click()
 
-  #  def get_phone(self):
-   #     return self.driver.find_element(*self.phone_number_input).text
-
-    #def code_click(self):
-     #   self.driver.implicitly_wait(30)
-      #  self.driver.find_element(*self.click_code).click()
-
     def code_number(self):
         self.driver.implicitly_wait(30)
         phone_code = retrieve_phone_code(driver=self.driver)
@@ -189,12 +180,8 @@ class UrbanRoutesPage:
         self.driver.find_element(*self.blanket_and_scarves).click()
 
     def slider_verification(self):
-        slider = self.driver.find_element(*self.slider)
-        return slider[0].get_propiety('checked')
-
-    #def get_slider_status(self):
-     #   return self.driver.find_element(*self.blanket_and_scarves)
-
+        slider = self.driver.find_elements(*self.slider)
+        return slider[0].get_property('checked')
 
     def request_ice_cream(self):
         self.driver.implicitly_wait(20)
@@ -208,8 +195,6 @@ class UrbanRoutesPage:
     def search_taxi(self):
         self.driver.implicitly_wait(20)
         self.driver.find_element(*self.taxi_search_button).click()
-
-
 
     def order_header(self):
         self.driver.implicitly_wait(30)
@@ -225,7 +210,3 @@ class UrbanRoutesPage:
 
     def get_details(self):
         return self.driver.find_element(*self.wait_driver_details).text
-
-
-
-

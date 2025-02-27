@@ -1,9 +1,4 @@
-from turtledemo.paint import switchupdown
-
-from select import select
-
 import data
-from SMS import retrieve_phone_code
 from selenium import webdriver
 from Urban_RoutesPage import UrbanRoutesPage
 
